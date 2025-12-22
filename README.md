@@ -1,3 +1,18 @@
+# Kristal-ja (Kristal Japanese Localization Project)
+
+This is a fork of [Kristal](https://github.com/KristalTeam/Kristal), focused on Japanese localization.
+本家 [Kristal](https://github.com/KristalTeam/Kristal) エンジンの日本語化ローカライズプロジェクトです。
+
+## 🇯🇵 Project Goal / プロジェクトの目的
+* **UI Translation**: エディタやデバッグメニューの日本語化
+* **Font Support**: 日本語フォント（CJK）の表示対応
+* **Input Support**: 日本語入力（IME）への対応（※もし予定にあれば）
+
+## ⚠️ Disclaimer / 免責事項
+This project is not affiliated with the official Kristal Team.
+このプロジェクトは公式のKristalチームとは関係ありません。不具合報告は本家ではなく、こちらのIssueへお願いします。
+
+---
 # Kristal
 
 Kristal is a powerful [DELTARUNE](https://deltarune.com/) fangame and battle engine, made with [LÖVE](https://love2d.org/). It allows you to make **custom DELTARUNE worlds, battles, and more!**
