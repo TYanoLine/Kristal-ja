@@ -6,7 +6,6 @@ This is a fork of [Kristal](https://github.com/KristalTeam/Kristal), focused on 
 ## 🇯🇵 Project Goal / プロジェクトの目的
 * **UI Translation**: エディタやデバッグメニューの日本語化
 * **Font Support**: 日本語フォント（CJK）の表示対応
-* **Input Support**: 日本語入力（IME）への対応（※もし予定にあれば）
 
 ## ⚠️ Disclaimer / 免責事項
 This project is not affiliated with the official Kristal Team.
