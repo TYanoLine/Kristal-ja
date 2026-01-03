@@ -229,7 +229,7 @@ function GameOver:update()
                 self.timer = 0
             else
                 self.current_stage = 20
-                local world_ended_text = "[noskip][speed:0.5][spacing:8][voice:none] THEN THE WORLD[wait:30] \n WAS COVERED[wait:30] \n IN DARKNESS."
+                local world_ended_text = "[noskip][speed:0.5][spacing:8][voice:none] 　　　　　世界ハ[wait:30] \n 闇ニ[wait:30]  包マレマシタ。"
                 if not Game:getConfig("oldGameOver") then
                     self.text:remove()
 

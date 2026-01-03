@@ -34,19 +34,19 @@ function MainMenuTitle:onEnter(old_state)
 
     if TARGET_MOD then
         self.options = {
-            {"play",    self.has_target_saves and "Load game" or "Start game"},
-            {"options", "Options"},
-            {"credits", "Credits"},
-            {"quit",    "Quit"},
+            {"play",    self.has_target_saves and "ゲームをロード" or "ゲームを開始"},
+            {"options", "オプション"},
+            {"credits", "クレジット"},
+            {"quit",    "終了"},
         }
     else
         self.options = {
-            {"play",      "Play a mod"},
-            {"modfolder", "Open mods folder"},
-            {"options",   "Options"},
-            {"credits",   "Credits"},
-            {"wiki",      "Open wiki"},
-            {"quit",      "Quit"},
+            {"play",      "MOD をプレイ"},
+            {"modfolder", "MOD フォルダを開く"},
+            {"options",   "オプション"},
+            {"credits",   "クレジット"},
+            {"wiki",      "Wiki を開く"},
+            {"quit",      "終了"},
         }
     end
 

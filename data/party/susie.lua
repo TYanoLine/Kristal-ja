@@ -160,8 +160,7 @@ function character:init()
     self.menu_icon_offset = nil
 
     -- Message shown on gameover (optional)
-    self.gameover_message = nil -- Handled by getGameOverMessage for Susie
-
+    self.gameover_message = nil
     -- Character flags (saved to the save file)
     self.flags = {
         ["auto_attack"] = false,
@@ -194,8 +193,8 @@ end
 
 function character:getGameOverMessage(main)
     return {
-        "Come on,[wait:5]\nthat all you got!?",
-        main:getName()..",[wait:5]\nget up...!"
+        main:getName().."\nしっかりしろよ！",
+        "まだ終われねーだろ？[wait:5]\n起きろって…！"
     }
 end
 

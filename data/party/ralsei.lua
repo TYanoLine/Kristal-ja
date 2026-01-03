@@ -167,8 +167,8 @@ function character:init()
 
     -- Message shown on gameover (optional)
     self.gameover_message = {
-        "This is not\nyour fate...!",
-        "Please,[wait:5]\ndon't give up!"
+        "キミは　こんなところで\n終わるはずじゃない…！",
+        "あきらめちゃ[wait:5]\nダメだよ！"
     }
 end
 

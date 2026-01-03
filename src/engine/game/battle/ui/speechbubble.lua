@@ -9,7 +9,7 @@ function SpeechBubble:init(text, x, y, options, speaker)
     self.layer = BATTLE_LAYERS["above_arena"] - 1
 
     self.text = DialogueText("", 0, 0, 1, 1, {
-        font = options["font"] or "plain",
+        font = options["font"] or "ja_main_mini",
         style = "none",
         line_offset = 0,
     })
